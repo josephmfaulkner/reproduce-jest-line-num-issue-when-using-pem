@@ -1,0 +1,26 @@
+{
+  "name": "TypescriptJest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp", 
+    "test": "jest"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "browserify": "^17.0.0",
+    "fancy-log": "^2.0.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsify": "^5.0.4",
+    "typescript": "^5.3.3",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^4.0.0"
+  }
+}
