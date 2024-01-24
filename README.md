@@ -12,7 +12,7 @@ yarn test
 Jest displays the correct line that causes test to fail.
 ![Jest reports correct line number ](SCREENSHOT-correct-line-reported.png)
 
-When pem is added to the project, jest reports a failed test from exampleTest.test.ts  on the wrong line number (44)
+When [pem](https://www.npmjs.com/package/pem) is added to the project, jest reports a failed test from exampleTest.test.ts  on the wrong line number (44)
 ![Jest reports wrong line number with pem incorporated into project](SCREENSHOT-wrong-line-reported.png)
 
 
