@@ -1,5 +1,6 @@
 {
-    "files": ["src/greet.ts", "src/main.ts"],
+    //"files": ["src/greet.ts", "src/main.ts"],
+    "include": ["src/**/*.ts", "tests/**/*.ts"],
     "compilerOptions": {
       "noImplicitAny": true,
       "target": "es5"

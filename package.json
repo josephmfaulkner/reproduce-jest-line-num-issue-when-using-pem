@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "gulp", 
+    "build": "gulp",
     "test": "jest"
   },
   "dependencies": {
+    "pem": "^1.14.8",
+    "@types/pem": "^1.14.4",
     "gulp-cli": "^2.3.0"
   },
   "devDependencies": {

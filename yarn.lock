@@ -630,6 +630,13 @@
   dependencies:
     undici-types "~5.26.4"
 
+"@types/pem@^1.14.4":
+  version "1.14.4"
+  resolved "https://registry.yarnpkg.com/@types/pem/-/pem-1.14.4.tgz#020740e26383289c04361b4894bc4d7e8e41a982"
+  integrity sha512-Xt6qY6kX1RD4UmYNhWCCf3OSJrRcwbQIaJ/mQSjjAHxIjXMHx/vHNPOgEU3HdVKS1k/U5CZ6ClQlRo8egkl8xg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/stack-utils@^2.0.0":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.3.tgz#6209321eb2c1712a7e7466422b8cb1fc0d9dd5d8"
@@ -1320,6 +1327,11 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
+charenc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
+  integrity sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==
+
 chokidar@^2.0.0:
   version "2.1.8"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-2.1.8.tgz"
@@ -1611,6 +1623,11 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+crypt@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
+  integrity sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==
+
 crypto-browserify@^3.0.0:
   version "3.12.0"
   resolved "https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.12.0.tgz"
@@ -1872,6 +1889,11 @@ es6-iterator@^2.0.1, es6-iterator@^2.0.3:
     d "1"
     es5-ext "^0.10.35"
     es6-symbol "^3.1.1"
+
+es6-promisify@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-7.0.0.tgz#9a710008dd6a4ab75a89e280bad787bfb749927b"
+  integrity sha512-ginqzK3J90Rd4/Yz7qRrqUeIpe3TwSXTPPZtPne7tGBPeAaQiU8qt4fpKApnxHcq1AwtUdHVg5P77x/yrggG8Q==
 
 es6-symbol@^3.1.1, es6-symbol@^3.1.3:
   version "3.1.3"
@@ -2643,7 +2665,7 @@ is-binary-path@~2.1.0:
   dependencies:
     binary-extensions "^2.0.0"
 
-is-buffer@^1.1.0, is-buffer@^1.1.5:
+is-buffer@^1.1.0, is-buffer@^1.1.5, is-buffer@~1.1.6:
   version "1.1.6"
   resolved "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
@@ -3478,6 +3500,15 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
+md5@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
+  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
+  dependencies:
+    charenc "0.0.2"
+    crypt "0.0.2"
+    is-buffer "~1.1.6"
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -3784,6 +3815,11 @@ os-locale@^1.4.0:
   dependencies:
     lcid "^1.0.0"
 
+os-tmpdir@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
+  integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
+
 outpipe@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/outpipe/-/outpipe-1.1.1.tgz"
@@ -3954,6 +3990,16 @@ pbkdf2@^3.0.3:
     ripemd160 "^2.0.1"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+pem@^1.14.8:
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/pem/-/pem-1.14.8.tgz#9c414bee991b138a24617f423059e809d01aa720"
+  integrity sha512-ZpbOf4dj9/fQg5tQzTqv4jSKJQsK7tPl0pm4/pvPcZVjZcJg7TMfr3PBk6gJH97lnpJDu4e4v8UUqEz5daipCg==
+  dependencies:
+    es6-promisify "^7.0.0"
+    md5 "^2.3.0"
+    os-tmpdir "^1.0.2"
+    which "^2.0.2"
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -5180,7 +5226,7 @@ which@^1.2.14:
   dependencies:
     isexe "^2.0.0"
 
-which@^2.0.1:
+which@^2.0.1, which@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
