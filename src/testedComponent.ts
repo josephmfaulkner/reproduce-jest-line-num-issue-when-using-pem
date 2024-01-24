@@ -6,7 +6,7 @@ export async function testExportedFunction() : Promise<string>
 
 }
 
-/*
+
 export async function testExportedFunctionWithPem (buffer: Buffer, stringData: string) : Promise<boolean>
 {
     try 
@@ -19,4 +19,4 @@ export async function testExportedFunctionWithPem (buffer: Buffer, stringData: s
         return false; 
     }
 }
-*/
+
