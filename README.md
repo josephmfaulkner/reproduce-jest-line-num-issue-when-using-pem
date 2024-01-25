@@ -12,6 +12,7 @@ Initially, Jest displays the correct line that causes test to fail for a simple 
 ![Jest reports correct line number ](SCREENSHOT-correct-line-reported.png)
 
 When pem is added to the project (uncomment out the first line on testedComponent.js), jest reports the same failed test on the wrong line number. 
+
 ![Jest reports wrong line number with pem incorporated into project](SCREENSHOT-wrong-line-reported.png)
 
 My goal is to have Jest report the correct line that causes a test to fail with projects that include pem version 1.14.8 
